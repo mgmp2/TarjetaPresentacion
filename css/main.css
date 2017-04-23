@@ -1,0 +1,22 @@
+body {
+  background: red;
+}
+
+.box-laboratoria {
+  width: 1200px;
+  margin: 20px auto;
+  background-color: blue;
+  display: inline-block;
+}
+.box-laboratoria > div {
+
+}
+img {
+  width: 39%;
+  background: yellow;
+}
+.box-laboratoria > .text {
+  width: 60%;
+  background: orange;
+  display: inline-block;
+}
