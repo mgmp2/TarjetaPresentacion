@@ -1,33 +1,37 @@
 body {
   background: black;
+  font-family: 'Mukta Vaani','PT Serif', sans-serif;
 }
 
 .box-laboratoria {
   width: 1000px;
-    height: 560px;
-    margin: 5% 12%;
-    position: relative;
-    background-image: url(../img/segunda-promocion.jpg);
-    display: inline-block;
-    background-size: contain;
-
-    background-repeat: no-repeat;
+  height: 554px;
+  margin: 5% 20%;
+  position: relative;
+  background-image: url(../img/fondo.jpg);
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.box-laboratoria > div {
-
+.box-laboratoria > img {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  left: 27%;
+  top: -14%;
 }
-img {
+.information > img {
   width: 39%;
   background: yellow;
 }
 .box-laboratoria > .text {
   width: 75%;
-  height: 98%;
+  height: 100%;
   position: absolute;
   background:   linear-gradient(120deg , rgba(0, 0, 0, 0) 35%,#3C3C3B 34%);
   display: inline-block;
   right: 0;
-  bottom: 1.7%;
+  bottom: 0;
 
 }
 
@@ -38,13 +42,14 @@ img {
   font-size: 46px;
   position: absolute;
   text-align: right;
-
+  font-weight: 100;
 }
 .text > h2 {
   color: #FCB425;
   position: absolute;
   top: 38%;
   right: 10%;
+  font-weight: 200;
 
 }
 .information > span {
